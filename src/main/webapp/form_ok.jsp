@@ -21,11 +21,12 @@
     String isCheckedMSG = "";
     if(isCheck.equals("1")) isCheckedMSG = "Check me out 체크됨!";
 %>
-<html>`
+<html>
 <head>
     <title>Title</title>
 </head>
 <body>
+<h1>입력하신 정보는 다음과  같습니다.</h1>
 Email : <%= email%> <br />
 Password : <%= password%> <br />
 Address : <%= address%> <br />
